@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eede7d4-191b-4b80-8a71-4ee2a70b66d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/crossword.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CellTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SudokuContainerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/SudokuGridImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SudokuGridImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SudokuGridImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +73,7 @@
       <updated>1672467003208</updated>
       <workItem from="1672467004582" duration="600000" />
       <workItem from="1672631315391" duration="6972000" />
-      <workItem from="1672870589046" duration="3959000" />
+      <workItem from="1672870589046" duration="4209000" />
     </task>
     <servers />
   </component>
