@@ -1,9 +1,10 @@
 package org.example;
 
 public class Cell {
-    SudokuContainer row, column, box, possibilities;
+    private SudokuContainer row, column, box, possibilities;
     private int value;
     public Cell (SudokuContainer row, SudokuContainer column, SudokuContainer box, int value) {
+        //should probably check that none of these are null
         this.row = row;
         this.column = column;
         this.box = box;

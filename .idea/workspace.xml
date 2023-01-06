@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7eede7d4-191b-4b80-8a71-4ee2a70b66d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CellTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/CellTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/SudokuContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SudokuContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/SudokuContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/SudokuContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +76,30 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CellTest.testGetNextPossibleValueWithPossibilities">
+  <component name="RunManager" selected="Gradle.SudokuContainerTest.testAddOutOfBoundsNumber">
+    <configuration name="CellTest.testCellConstructorWithInvalidValue" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;org.example.CellTest.testCellConstructorWithInvalidValue&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="CellTest.testGetNextPossibleValueWithPossibilities" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -119,7 +146,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CellTest.testGetNextPossibleValueWithValuesInBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SudokuContainerTest.testAddDuplicateNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,7 +159,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.CellTest.testGetNextPossibleValueWithValuesInBox&quot;" />
+            <option value="&quot;org.example.SudokuContainerTest.testAddDuplicateNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,7 +169,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CellTest.testGetNextPossibleValueWithValuesInColumn" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SudokuContainerTest.testAddOutOfBoundsNumber" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -155,30 +182,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.CellTest.testGetNextPossibleValueWithValuesInColumn&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CellTest.testGetNextPossibleValueWithValuesInRow" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;org.example.CellTest.testGetNextPossibleValueWithValuesInRow&quot;" />
+            <option value="&quot;org.example.SudokuContainerTest.testAddOutOfBoundsNumber&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -190,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.SudokuContainerTest.testAddOutOfBoundsNumber" />
+        <item itemvalue="Gradle.SudokuContainerTest.testAddDuplicateNumber" />
+        <item itemvalue="Gradle.CellTest.testCellConstructorWithInvalidValue" />
         <item itemvalue="Gradle.CellTest.testGetNextPossibleValueWithPossibilities" />
         <item itemvalue="Gradle.CellTest.testGetNextPossibleValueWithValuesInAllContainers" />
-        <item itemvalue="Gradle.CellTest.testGetNextPossibleValueWithValuesInBox" />
-        <item itemvalue="Gradle.CellTest.testGetNextPossibleValueWithValuesInColumn" />
-        <item itemvalue="Gradle.CellTest.testGetNextPossibleValueWithValuesInRow" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +213,7 @@
       <workItem from="1672467004582" duration="600000" />
       <workItem from="1672631315391" duration="6972000" />
       <workItem from="1672870589046" duration="11126000" />
-      <workItem from="1673039030700" duration="380000" />
+      <workItem from="1673039030700" duration="3986000" />
     </task>
     <servers />
   </component>

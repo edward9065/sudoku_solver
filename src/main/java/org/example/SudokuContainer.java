@@ -11,7 +11,9 @@ public class SudokuContainer {
     public void addNumber(int num) {
         num--;
         if(numbers[num]) {
-            throw new IllegalArgumentException("Error, " + num +" is already in the container");
+            throw new IllegalArgumentException("Error, " + num+1 +" is already in the container");
+        } else if(num > 8 || num < 0) {
+            throw new IllegalArgumentException("Error, " + num+1 + " is not a valid number between 1 and 9");
         }
         numbers[num] = true;
     }
