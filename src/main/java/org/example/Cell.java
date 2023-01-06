@@ -7,6 +7,7 @@ public class Cell {
         this.row = row;
         this.column = column;
         this.box = box;
+        this.possibilities = new SudokuContainer();
         if(value > 9 || value < 0) {
             throw new IllegalArgumentException("Error value of cell must be a value between 0 and 9");
         }
