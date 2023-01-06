@@ -53,4 +53,28 @@ class SudokuContainerTest {
         assertThrows(IllegalArgumentException.class, () -> sudokuContainer.addNumber(10));
     }
 
+    @Test
+    public void removeZero() {
+        assertThrows(IllegalArgumentException.class, () -> sudokuContainer.removeNumber(0));
+    }
+
+    @Test
+    public void removeNine() {
+        numbers[8] = true;
+        sudokuContainer.removeNumber(9);
+        assertFalse(numbers[8]);
+    }
+
+    //again, this tests the MUT more than once, but I want to see that this works
+    @Test
+    public void removeAllNumbers() {
+        for(int i = 0; i<9; i++) { numbers[i] = true; }
+        for(int i = 1; i<=9; i++) { sudokuContainer.removeNumber(i); }
+        for(int i = 0; i<9; i++ ) { assertFalse(numbers[i]); }
+    }
+
+    @Test
+    public void removeNonPresentNumber() {
+        assertThrows(IllegalArgumentException.class, () -> sudokuContainer.removeNumber(2));
+    }
 }

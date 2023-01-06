@@ -10,18 +10,21 @@ public class SudokuContainer {
 
     public void addNumber(int num) {
         num--;
-        if(numbers[num]) {
-            throw new IllegalArgumentException("Error, " + num+1 +" is already in the container");
-        } else if(num > 8 || num < 0) {
+
+        if(num > 8 || num < 0) {
             throw new IllegalArgumentException("Error, " + num+1 + " is not a valid number between 1 and 9");
+        } else if(numbers[num]) {
+            throw new IllegalArgumentException("Error, " + num+1 +" is already in the container");
         }
         numbers[num] = true;
     }
 
     public void removeNumber(int num) {
         num--;
-        if(!numbers[num]) {
-            throw new IllegalArgumentException("Error, "+ num + " was not in the container");
+        if(num > 8 || num < 0) {
+            throw new IllegalArgumentException("Error, " + num+1 + " is not a valid number between 1 and 9");
+        } else if(!numbers[num]) {
+            throw new IllegalArgumentException("Error, " + num+1 +" is not in the container already");
         }
         numbers[num] = false;
     }
