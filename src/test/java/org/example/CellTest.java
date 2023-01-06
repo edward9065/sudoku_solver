@@ -91,4 +91,9 @@ class CellTest {
         assertEquals(0, cell.getNextPossibleValue());
         verify(possibilities, times(8)).isNumberPresent(anyInt());
     }
+
+    @Test
+    public void testCellConstructorWithInvalidValue() {
+        assertThrows(IllegalArgumentException.class, () -> new Cell(row, column, box, 10));
+    }
 }
