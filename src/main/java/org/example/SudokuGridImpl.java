@@ -1,16 +1,16 @@
 package org.example;
 
 public class SudokuGridImpl implements SudokuGrid{
-    Cell[][] grid;
-    SudokuContainer[] rows, columns, boxes;
+    private Cell[][] grid;
 
     public SudokuGridImpl(int[][] inputGrid){
+        SudokuContainer[] rows, columns, boxes;
         grid = new Cell[9][9];
         rows = new SudokuContainer[9];
         columns = new SudokuContainer[9];
         boxes = new SudokuContainer[9];
 
-        fillInGrid(inputGrid);
+        fillInGrid(inputGrid, rows, columns, boxes);
     }
     //add one that takes a JSON later
 
@@ -33,7 +33,7 @@ public class SudokuGridImpl implements SudokuGrid{
         grid[row][column].setValue(nextValue);
     }
 
-    private void fillInGrid(int[][] inputGrid){
+    private void fillInGrid(int[][] inputGrid, SudokuContainer[] rows, SudokuContainer[] columns, SudokuContainer[] boxes) {
         if(inputGrid.length !=9) { throw new IllegalArgumentException("Error, input grid must be 9x9"); }
 
         int boxCount = 0;

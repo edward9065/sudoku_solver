@@ -1,6 +1,7 @@
 package org.example;
 
 public interface SudokuGrid {
+    //might want to have a different implementation later
     //ideally, user of grid should not need to interact directly with cells...
     //return 0 if no value in cell
     public int getCellValue(int row, int column);
